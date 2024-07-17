@@ -1,0 +1,331 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+html {
+    scroll-behavior: smooth ;
+    cursor: context-menu;
+}
+body {
+    background-color:rgb(221, 221, 221);
+}
+::-webkit-scrollbar {
+    width: 13px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(221, 221, 221);
+}
+::-webkit-scrollbar-thumb {
+    background-color:#10101094;
+}
+/* < ------- Navbar Starts -------- > */
+.start {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo i {
+    padding-right: 8px;
+    font-size: 32px;
+}
+#Home-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+    background-color: #9b9b9baa;
+    cursor: context-menu;
+}
+.links,li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.links button{
+    background:none;
+    border: 1px;
+    padding-top: 3.5px;
+   padding-right: 10px;
+    padding-left: 15px;
+    margin-left: 50px;
+    display:none;
+}
+.links a {
+    color:#101010c7;
+    font-weight: 600;
+    font-size: 12px;
+}
+.button i {
+    margin-left: 50px;
+    border: none;
+    padding-right: 2px;
+    padding-bottom:5px;
+}
+.menu {
+    display: none;
+}
+.menus {
+    margin: 60px 0px;
+    margin-left: 50%;
+    padding:10px 5px;
+    padding-right: 20px;
+    position: fixed;
+    border-radius: 10px;
+    top: 0%;
+}
+/*  < ------------ Navbar Ends ----------- >*/
+
+
+/*  < ------------ Home-Content starts ----------- >*/
+.Home-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Home-cont {
+    width: 50%;
+   padding: 9%;
+   padding-left: 60px;
+}
+.Home-cont h1 {
+    padding-left: 13px;
+    font-size: 35px;
+}
+.Home-cont li a {
+    color: #101010c7;
+    font-size: 12px;
+    font-weight: 550;
+}
+.Home-cont p {
+    font-family:Helvetica, sans-serif;
+    padding-top: 12px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.logos {
+    padding-right: 10px;
+}
+.logos img {
+    width: 50%;
+}
+span {
+    color:rgba(237, 7, 7, 0.724);
+    font-family:monospace, sans-serif;
+    padding-left: 10px;
+}
+/* < ---------- Home-Content Ends ------------> */
+
+
+
+/* < ---------- About Starts ------------> */
+.About {
+   padding-top: 0px;
+   padding-bottom: 10px;
+}
+.heading h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.Description p {
+    font-family:Helvetica, sans-serif;
+    padding: 6px 25px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.Description h6 {
+    padding:0px 35px;
+    font-size: 18px;
+    font-family:'Lucida Sans Unicode',sans-serif;
+}
+.Description span {
+    font-size: 22px;
+}
+.skillicons {
+    display: flex;
+    justify-content: space-evenly;
+}
+i:hover{
+    color: hwb(257 1% 87% / 0.653);
+}
+/* < ---------- About Ends -------- > */
+
+/* < -------- Educations Starts -------> */
+.Educations {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Educations h3 {
+    padding-top:20px;
+    padding-left: 60px;
+    padding-bottom: 5px;
+    text-decoration:underline;
+    width: 50%;
+}
+.Educations span {
+    font-weight: 1000; 
+    padding-left: 74px;
+}
+.Educations p {
+    font-weight: 600;
+    padding-left: 74px;
+    font-family:Helvetica, sans-serif;
+    padding-bottom: 8px;
+}
+.cont {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.cont h2 {
+    padding: 10px 0%;
+    text-align: center;
+    font-size: 35px;
+}
+#Contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.contact-details {
+    text-align: center;
+    padding-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact-details p {
+    padding-top: 10px;
+}
+#cont-icons i{
+    color: #101010de;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+
+
+/*<--------Responsiveness-------->*/
+
+
+@media(max-width:480px) {
+    html {
+        font-size: 8px;
+    }
+    .logo {
+        font-size: 10px;
+    }
+    .links li {
+        display: none;
+    }
+    .links button {
+        display: block;
+    }
+    .Home-content {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 5%;
+    }
+    .Home-cont {
+        width: 100%;
+        padding: 5%;
+    }
+    .Home-cont h1 {
+        font-size: 28px;
+        padding-left: 0;
+    }
+    .Home-cont p {
+        font-size: 15px;
+        text-align: left;
+        padding: 0 5%;
+    }
+    .logos img {
+        width: 100%;
+    }
+    .About {
+        padding-top: 10px;
+    }
+    .heading h2 {
+        font-size: 25px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .Description p{
+        font-size: 15px;
+        padding: 0 10px;
+        text-align: left;
+    }
+    .Description span {
+        font-size: 15px;
+        text-align: center;
+    }
+    .Description h6 {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .skillicons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Educations {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Btech ,.Inter ,.Secondary,.Primary {
+        width: 100%;
+    }
+    .Educations h3 {
+        padding-left: 20px;
+        width: 100%;
+    }
+    .Educations span,
+    .Educations p {
+        padding-left: 20px;
+    }
+    .cont h2 {
+        font-size: 30px;
+    }
+    .contact-details p {
+        font-size: 12px;
+        padding: 0 10px;
+        text-align: center;
+    }
+    #cont-icons i {
+        font-size: 35px;
+    }
+    .menus {
+        margin: 40px 0px;
+        margin-left: 66.5%;
+        padding: 10px 5px;
+        padding-right: 20px;
+        text-align: center;
+        position: fixed;
+        border-radius: 10px;
+        top: 0%;
+    }
+} 
