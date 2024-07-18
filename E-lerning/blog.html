@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheTechieHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <h1>TheTechiesHub</h1>
+        <img src="bxs-graduation.svg" alt="">
+        </div>
+        <div class="navigation">
+            <ul>
+               <img id="menu-close" src="cancel-button_66847.png" alt="">
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="about.html">About</a></li> 
+               <li><a class="active" href="blog.html">Blog</a></li> 
+               <li><a href="course.html">Courses</a></li> 
+               <li><a href="contact.html">Contact</a></li> 
+            </ul>
+            <img id="menu-btn" src="bx-menu.svg" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-home">
+        <h2>Blog Page</h2>
+        </div>
+    </section>
+
+    <section id="blog-container">
+        <div class="blogs">
+            <div id="web" class="post">
+                <img src="close-up-image-programer-working-his-desk-office.jpg" alt="">
+                <h3>Learn Web Development</h3>
+                <p>Unlock the world of web development with our comprehensive course! Designed for beginners and aspiring developers, this course covers HTML, CSS, JavaScript, and more. You'll learn to build responsive websites, understand front-end and back-end concepts, and create dynamic web applications. Join us to gain the skills you need to start your journey as a web developer, with hands-on projects and expert guidance every step of the way.</p>
+                <div class="blog-btn"><a href="post.html">Read More</a></div>
+            </div>
+            <div id="react" class="post">
+                <img id="web" src="programming-background-with-person-working-with-codes-computer.jpg" alt="">
+                <h3>ReactJS Course</h3>
+                <p>Dive into the world of modern web development with our ReactJS course! Perfect for developers looking to enhance their skills, this course covers the fundamentals of React, including components, state management, and hooks. You'll learn to build interactive, dynamic user interfaces and gain hands-on experience through real-world projects. Join us to master ReactJS and take your front-end development skills to the next level!</p>
+                 <div class="blog-btn"><a href="#">Read More</a></div>
+            </div>
+            <div id="app" class="post">
+                <img id="web" src="representation-user-experience-interface-design (1).jpg" alt="">
+                <h3>App Development</h3>
+                <p>Embark on an exciting journey into app development with our comprehensive course! Designed for beginners and aspiring developers, this course covers key concepts in mobile app creation, including user interface design, programming languages, and deployment. You'll work with popular frameworks like Flutter and React Native to build cross-platform apps. Gain hands-on experience through real projects and elevate your skills to bring your app ideas to life. Join us and start developing the future today!</p>
+                <div class="blog-btn"><a href="#">Read More</a></div>
+            </div>
+            <div id="design" class="post">
+                <img id="web" src="web-design-internet-website-responsive-software-concept.jpg" alt="">
+                <h3>Web Design</h3>
+                <p>Transform your creativity into stunning websites with our Web Design course! This course covers the essentials of design principles, typography, color theory, and user experience. You'll learn how to create visually appealing and user-friendly interfaces using tools like Adobe XD and Figma. With hands-on projects and expert guidance, you'll be equipped to bring your web design visions to life. Join us and start crafting beautiful, functional websites today!</p>
+                <div class="blog-btn"><a href="#">Read More</a></div>
+            </div>
+        </div>
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#web">Web Development</a>
+            <hr>
+            <a href="#design">Web Design</a>
+            <hr>
+            <a href="#web">Front End Web Development</a>
+            <hr>
+            <a href="#react">ReactJS</a>
+            <hr>
+            <a href="#app">App Development</a>
+            <hr>
+            <a href="#web">Python Programming</a>
+            <hr>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Courses</h3>
+            <li>Digital Marketing</li>
+            <li>Full Stack Development</li>
+            <li>Data Analyst</li>
+            <li>Business Analyst</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Guides</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>100% Trusted and Industry Recognized</p>
+            <div class="subscribe">
+                <input type="email" placeholder="Your Email" name="" id="">
+                <a class="yellow" href="#">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 2024 All rights reserved | This Template is made by Jayavardhan Yerubandi</p>
+            <div class="pro-links">
+                <img src="bxl-facebook-circle.svg" alt="">
+                <img src="bxl-instagram.svg" alt="">
+                <img src="bxl-linkedin-square.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+    </script>
+</body>
+</html>

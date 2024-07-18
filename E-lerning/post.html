@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheTechieHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <h1>TheTechiesHub</h1>
+        <img src="bxs-graduation.svg" alt="">
+        </div>
+        <div class="navigation">
+            <ul>
+               <img id="menu-close" src="cancel-button_66847.png" alt="">
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="about.html">About</a></li> 
+               <li><a class="active" href="blog.html">Blog</a></li> 
+               <li><a href="course.html">Courses</a></li> 
+               <li><a href="contact.html">Contact</a></li> 
+            </ul>
+            <img id="menu-btn" src="bx-menu.svg" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs blog-post">
+            <div class="post">
+              <img src="close-up-image-programer-working-his-desk-office.jpg" alt="">  
+              <h3>Learn Web Development</h3>
+              <p>
+                Unlock the world of web development with our comprehensive course! Designed for beginners and aspiring developers, this course covers HTML, CSS, JavaScript, and more. You'll learn to build responsive websites, understand front-end and back-end concepts, and create dynamic web applications. Join us to gain the skills you need to start your journey as a web developer, with hands-on projects and expert guidance every step of the way.
+                <br>
+                <br>
+                Web development is a dynamic and ever-evolving field that serves as the backbone of the digital world. It encompasses the creation, maintenance, and optimization of websites and web applications, combining technical skills with creativity to deliver engaging online experiences. The field is divided into front-end and back-end development, each playing a vital role in how users interact with websites.
+                <br>
+                <br>
+                Front-end development focuses on the user interface and experience, using technologies like HTML, CSS, and JavaScript. Developers in this area ensure that websites are visually appealing, responsive, and user-friendly. They work on layouts, color schemes, and interactive elements, making sure that the design translates well across different devices. Tools and frameworks such as React and Angular have revolutionized front-end development, allowing for the creation of dynamic, single-page applications that provide seamless user experiences.
+                <br>
+                <br>
+                On the other hand, back-end development involves server-side programming and database management. It deals with the behind-the-scenes functionality that powers websites. Languages like Python, Ruby, and Node.js are commonly used to handle server logic, manage databases, and ensure data security. Back-end developers focus on building robust, scalable systems that can support high traffic and provide efficient data processing.
+                <br>
+                <br>
+                The demand for skilled web developers continues to grow as businesses and individuals increasingly rely on the internet for information, commerce, and communication. Web development offers numerous career opportunities, from freelancing to working in tech companies and startups. It requires a continuous learning mindset, as new tools and technologies emerge regularly.
+                <br>
+                <br>
+                In summary, web development is a multifaceted field that combines creativity and technical expertise. It plays a critical role in shaping the online world, enabling users to access information and services effortlessly. As technology advances, the possibilities in web development continue to expand, making it an exciting and rewarding career choice.
+                <br>
+                <br>
+              </p>
+              <a href="#">Read Next ?</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Courses</h3>
+            <li>Digital Marketing</li>
+            <li>Full Stack Development</li>
+            <li>Data Analyst</li>
+            <li>Business Analyst</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Guides</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>100% Trusted and Industry Recognized</p>
+            <div class="subscribe">
+                <input type="email" placeholder="Your Email" name="" id="">
+                <a class="yellow" href="#">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 2024 All rights reserved | This Template is made by Jayavardhan Yerubandi</p>
+            <div class="pro-links">
+                <img src="bxl-facebook-circle.svg" alt="">
+                <img src="bxl-instagram.svg" alt="">
+                <img src="bxl-linkedin-square.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+    </script>
+</body>
+</html>

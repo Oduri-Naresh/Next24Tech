@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheTechieHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <h1>TheTechiesHub</h1>
+        <img src="bxs-graduation.svg" alt="">
+        </div>
+        <div class="navigation">
+            <ul>
+               <img id="menu-close" src="cancel-button_66847.png" alt="">
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="about.html">About</a></li> 
+               <li><a href="blog.html">Blog</a></li> 
+               <li><a href="course.html">Courses</a></li> 
+               <li><a class="active" href="contact.html">Contact</a></li> 
+            </ul>
+            <img id="menu-btn" src="bx-menu.svg" alt="">
+        </div>
+    </nav>
+
+    <section id="about-home" class="contact-us">
+        <h2>Contact Us</h2>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="getin">
+            <h2>Get in Touch</h2>
+            <p>Need help? Fill the form and raise your question</p>
+            <div class="getin-details">
+                <h3>TheTechiesHub Headquarters</h3>
+                <div>
+                    <img src="bx-home.svg">
+                    <p>Malikipuram, Andhra Pradesh, India.</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <img src="bxs-phone-call.svg" alt="">
+                    <p>+91 8179272167</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <img src="bx-envelope.svg" alt="">
+                    <p>thetechieshub@support.com <br>help@techieshub.com</p>
+                </div>
+                <h3>Follow Us</h3>
+                <div class="pro-links">
+                    <img src="bxl-facebook-circle.svg" alt="">
+                    <img src="bxl-instagram.svg" alt="">
+                    <img src="bxl-linkedin-square.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <div class="form-row">
+                <input type="text" placeholder="Enter Your Name" name="" id="">
+                <input type="email" name="" id="" placeholder="Enter Your Email">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="8" placeholder="How can we help you?"></textarea>
+            </div>
+            <div class="form-col">
+                <button>Send Query</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30619.97351014786!2d81.80569114999997!3d16.39958200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37df17061a99dd%3A0xc55b4a40d53f602e!2sMalikipuram%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1719730206981!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Courses</h3>
+            <li>Digital Marketing</li>
+            <li>Full Stack Development</li>
+            <li>Data Analyst</li>
+            <li>Business Analyst</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Guides</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>100% Trusted and Industry Recognized</p>
+            <div class="subscribe">
+                <input type="email" placeholder="Your Email" name="" id="">
+                <a class="yellow" href="#">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 2024 All rights reserved | This Template is made by Jayavardhan Yerubandi</p>
+            <div class="pro-links">
+                <img src="bxl-facebook-circle.svg" alt="">
+                <img src="bxl-instagram.svg" alt="">
+                <img src="bxl-linkedin-square.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+    </script>
+</body>
+</html>
