@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="#" style="text-decoration: none; font-weight:800;"><span style="font-size: 30px; color: black; font-family:'Playwrite AU VIC', cursive;">Fashion Store</span></a>
+        <div>
+            <ul id="navbar">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="shop.html">Shop</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li id="lg-bag"><a class="active" href="cart.html"><img style="height: 20px;" src="https://simpleicons.org/icons/shopify.svg" alt=""></a></li>
+               <a href="#" id="close"><img style="height: 20px;" src="https://cdn-icons-png.freepik.com/256/64/64498.png?uid=R152534747&ga=GA1.1.516135855.1718081667&semt=ais_hybrid" alt=""></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><img style="height: 24px;" src="https://simpleicons.org/icons/shopify.svg" alt=""></a>
+            <img id="bar" style="height: 24px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="">
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#let's talk</h2>
+        <p>LEAVE A MESSAGE, we love to hear from you! </p>
+    </section>
+     
+    
+    <section id="cart" class="section-p1">
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> <a href="#"><img src="images/icons/cancel-button_66847.png" style="height: 20px;" alt=""></a></td>
+                    <td><img class="cart-img" src="img/product-2-1.jpg" alt=""></td>
+                    <td>Cotton Shirts</td>
+                    <td>$98</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$98</td>
+                </tr>
+                <tr>
+                    <td> <a href="#"><img src="images/icons/cancel-button_66847.png" style="height: 20px;" alt=""></a></td>
+                    <td><img class="cart-img" src="img/product-1-1.jpg" alt=""></td>
+                    <td>Cotton Shirts</td>
+                    <td>$98</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$98</td>
+                </tr>
+                <tr>
+                    <td> <a href="#"><img src="images/icons/cancel-button_66847.png" style="height: 20px;" alt=""></a></td>
+                    <td><img class="cart-img" src="img/product-6-1.jpg" alt=""></td>
+                    <td>Cotton Shirts</td>
+                    <td>$98</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$98</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$ 294</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$ 294</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <span class="logo" style="font-size: 30px; color: black; font-family:'Playwrite AU VIC', cursive; font-weight: 800;">Fashion Store</span></a>
+            <h4>contact</h4>
+            <p><strong>Address: </strong>119 Joe Biden, USA</p>
+            <p><strong>Phone: </strong>911</p>
+            <p><strong>Hours: </strong>0:00 to 23:59, Sun - Sat</p>
+            <div class="follow">
+              <h4>Follow Us</h4>
+              <div class="icon">
+                <img class="i" style="height: 17px;" src="https://simpleicons.org/icons/facebook.svg" alt="">
+                <img class="i" style="height: 17px;" src="https://simpleicons.org/icons/x.svg" alt="">
+                <img class="i" style="height: 17px;" src="https://simpleicons.org/icons/instagram.svg" alt="">
+                <img class="i" style="height: 17px;" src="https://simpleicons.org/icons/pinterest.svg" alt="">
+                <img class="i" style="height: 17px;" src="https://simpleicons.org/icons/youtube.svg" alt="">
+              </div>
+            </div>  
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <div class="app">
+                <img class="im" src="https://simpleicons.org/icons/appstore.svg" alt="">
+                <p style="margin-top: 20px;">App Store</p>
+                </div>
+                <div class="app">
+                <img class="im" src="https://simpleicons.org/icons/googleplay.svg" alt="">
+                <p style="margin-top: 20px;">Play Store</p>
+                </div>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img style="height:50px;" src="https://w7.pngwing.com/pngs/653/181/png-transparent-credit-card-american-express-mastercard-payment-discover-card-mastercard-flag-text-display-advertising.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>2024, Jayavardhan - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
